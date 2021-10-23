@@ -5,9 +5,17 @@ html {
   color: white;
 }
 
+nav {
+  margin-bottom: 10px;
+}
+
 nav,
 footer {
   background-image: url("../../images/tileable_wood_texture.png");
+}
+
+body {
+  background-image: url("../../images/white_wall_hash.png");
 }
 
 #navbar-brand__logo {
@@ -29,7 +37,7 @@ footer {
 }
 
 .col-12 {
-  margin: 10px 0 !important;
+  margin: 10px 0;
 }
 
 .seasonal,
@@ -102,7 +110,6 @@ footer {
 
 h6 {
   color: black;
-  font-size: 0.8em;
 }
 
 .button {

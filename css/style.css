@@ -5,9 +5,17 @@ html {
   color: white;
 }
 
+nav {
+  margin-bottom: 10px;
+}
+
 nav,
 footer {
   background-image: url("../../images/tileable_wood_texture.png");
+}
+
+body {
+  background-image: url("../../images/white_wall_hash.png");
 }
 
 #navbar-brand__logo {
@@ -29,7 +37,7 @@ footer {
 }
 
 .col-12 {
-  margin: 10px 0 !important;
+  margin: 10px 0;
 }
 
 .seasonal,
@@ -108,8 +116,7 @@ footer {
 }
 
 h6, .h6 {
-  color: red;
-  font-size: 0.8em;
+  color: black;
 }
 
 .button {
@@ -313,7 +320,7 @@ h5, .h5 {
 }
 
 h6, .h6 {
-  font-size: 1rem;
+  font-size: 0.8em;
 }
 
 p {
@@ -8826,7 +8833,7 @@ fieldset:disabled .btn {
 }
 
 .fs-6 {
-  font-size: 1rem !important;
+  font-size: 0.8em !important;
 }
 
 .fst-italic {
