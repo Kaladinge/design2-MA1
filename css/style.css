@@ -108,8 +108,8 @@ footer {
 }
 
 h6, .h6 {
-  color: black;
-  font-size: 0.8em !important;
+  color: red;
+  font-size: 0.8em;
 }
 
 .button {
