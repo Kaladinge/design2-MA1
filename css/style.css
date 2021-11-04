@@ -239,6 +239,11 @@ h6, .h6 {
   max-width: 100%;
 }
 
+nav {
+  font-family: "Mulish", serif;
+  font-weight: 600;
+}
+
 .intro__text {
   color: white;
   font-family: "Ovo", serif;
@@ -295,7 +300,7 @@ h6, .h6 {
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: Open Sans;
+  --bs-font-sans-serif: Mulish;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
