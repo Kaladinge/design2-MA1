@@ -57,24 +57,34 @@ body {
 
 .seasonal__pic,
 .lamps__pic,
-.intro__pic {
+.intro__pic,
+.intro__homepic {
   height: 100%;
-  background-image: url("../images/interior-fall-comfy2.jpg");
+  background-image: url("../images/interior-fall-comfy4.jpg");
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
   border-radius: 5px;
 }
 
-.intro__pic {
+.intro__pic,
+.intro__homepic {
   background-image: url("../../images/intro-homedecor.jpg");
   -webkit-filter: drop-shadow(5px 5px 10px #5b5b5b);
           filter: drop-shadow(5px 5px 10px #5b5b5b);
   border-radius: 0;
 }
 
+#intro {
+  height: 600px;
+}
+
+.intro__homepic {
+  background-image: url("../../images/darkLounge.jpg");
+}
+
 .lamps__pic {
-  background-image: url("../images/lamps-comfy3.jpg");
+  background-image: url("../../images/lampsDark.jpg");
 }
 
 .seasonal__text,
@@ -111,12 +121,13 @@ body {
   position: absolute;
   top: 10px;
   left: 10px;
-  background-color: #d95204;
+  background-color: black;
   padding: 25px 20px;
   border-radius: 50%;
   color: white;
 }
 
+/* #d95204 */
 .card-body {
   text-align: center;
   position: relative;
@@ -255,6 +266,10 @@ nav {
 .intro__categories {
   font-size: 65px;
   color: #f2c029;
+}
+
+.intro__header {
+  font-size: 65px;
 }
 
 .button {
