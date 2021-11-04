@@ -82,7 +82,7 @@ body {
 .intro__text {
   text-align: center;
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -120,6 +120,11 @@ body {
 .card-body {
   text-align: center;
   position: relative;
+}
+
+.card-text {
+  text-align: left;
+  margin-top: 20px;
 }
 
 .price {
@@ -225,23 +230,25 @@ h6, .h6 {
 .seasonal__text,
 .lamps__text {
   color: white;
-  font-family: "Libre Baskerville", serif;
-  font-size: 45px;
-  background-color: rgba(0, 0, 0, 0.2);
+  font-family: "Ovo", serif;
+  font-size: 65px;
   padding: 10px;
   border-radius: 10px;
+  text-transform: uppercase;
+  width: 400px;
+  max-width: 100%;
 }
 
 .intro__text {
   color: white;
-  font-family: "Libre Baskerville", serif;
-  font-size: 45px;
+  font-family: "Ovo", serif;
+  font-size: 40px;
   padding: 10px;
+  text-transform: uppercase;
 }
 
 .intro__categories {
-  font-size: 25px;
-  font-style: italic;
+  font-size: 65px;
   color: #f2c029;
 }
 
