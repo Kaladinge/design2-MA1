@@ -1,3 +1,8 @@
+nav {
+  font-family: "Mulish", serif;
+  font-weight: 600;
+}
+
 .seasonal__text,
 .lamps__text {
   color: white;
@@ -8,11 +13,6 @@
   text-transform: uppercase;
   width: 400px;
   max-width: 100%;
-}
-
-nav {
-  font-family: "Mulish", serif;
-  font-weight: 600;
 }
 
 .intro__text {
@@ -26,4 +26,8 @@ nav {
 .intro__categories {
   font-size: 65px;
   color: #f2c029;
+}
+
+.button {
+  font-family: "Nanum Gothic";
 }
