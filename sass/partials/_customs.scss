@@ -36,7 +36,7 @@ body {
 }
 
 #navbar-brand__logo {
-  width: 250px;
+  width: 350px;
 }
 
 #mobile-logo {
@@ -53,31 +53,35 @@ body {
   height: 500px;
 }
 
+#intro {
+  height: 600px;
+}
+
 .seasonal__pic,
 .lamps__pic,
 .intro__pic,
 .intro__homepic {
   height: 100%;
-  background-image: url("../images/interior-fall-comfy4.jpg");
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
   border-radius: 5px;
 }
 
-.intro__pic,
-.intro__homepic {
+.seasonal__pic {
+  background-image: url("../../images/interior-fall-comfy4.jpg");
+}
+
+.intro__pic {
   background-image: url("../../images/intro-homedecor.jpg");
   filter: drop-shadow(5px 5px 10px rgb(91, 91, 91));
   border-radius: 0;
 }
 
-#intro {
-  height: 600px;
-}
-
 .intro__homepic {
   background-image: url("../../images/darkLounge.jpg");
+  filter: drop-shadow(5px 5px 10px rgb(91, 91, 91));
+  border-radius: 0;
 }
 
 .lamps__pic {

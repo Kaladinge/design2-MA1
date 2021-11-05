@@ -38,7 +38,7 @@ body {
 }
 
 #navbar-brand__logo {
-  width: 250px;
+  width: 350px;
 }
 
 #mobile-logo {
@@ -55,32 +55,37 @@ body {
   height: 500px;
 }
 
+#intro {
+  height: 600px;
+}
+
 .seasonal__pic,
 .lamps__pic,
 .intro__pic,
 .intro__homepic {
   height: 100%;
-  background-image: url("../images/interior-fall-comfy4.jpg");
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
   border-radius: 5px;
 }
 
-.intro__pic,
-.intro__homepic {
+.seasonal__pic {
+  background-image: url("../../images/interior-fall-comfy4.jpg");
+}
+
+.intro__pic {
   background-image: url("../../images/intro-homedecor.jpg");
   -webkit-filter: drop-shadow(5px 5px 10px #5b5b5b);
           filter: drop-shadow(5px 5px 10px #5b5b5b);
   border-radius: 0;
 }
 
-#intro {
-  height: 600px;
-}
-
 .intro__homepic {
   background-image: url("../../images/darkLounge.jpg");
+  -webkit-filter: drop-shadow(5px 5px 10px #5b5b5b);
+          filter: drop-shadow(5px 5px 10px #5b5b5b);
+  border-radius: 0;
 }
 
 .lamps__pic {
@@ -250,26 +255,31 @@ nav {
   font-size: 65px;
   padding: 10px;
   border-radius: 10px;
-  text-transform: uppercase;
   width: 400px;
   max-width: 100%;
 }
 
-.intro__text {
+.lorem {
+  color: white;
+}
+
+.intro__header {
+  color: white;
+  font-family: "Ovo", serif;
+  padding: 10px;
+  font-size: 65px;
+}
+
+.intro__decor {
   color: white;
   font-family: "Ovo", serif;
   font-size: 40px;
-  padding: 10px;
-  text-transform: uppercase;
 }
 
 .intro__categories {
   font-size: 65px;
   color: #f2c029;
-}
-
-.intro__header {
-  font-size: 65px;
+  font-family: "Ovo", serif;
 }
 
 .button {

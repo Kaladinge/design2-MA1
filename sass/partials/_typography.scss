@@ -10,26 +10,31 @@ nav {
   font-size: 65px;
   padding: 10px;
   border-radius: 10px;
-  text-transform: uppercase;
   width: 400px;
   max-width: 100%;
 }
 
-.intro__text {
+.lorem {
+  color: white;
+}
+
+.intro__header {
+  color: white;
+  font-family: "Ovo", serif;
+  padding: 10px;
+  font-size: 65px;
+}
+
+.intro__decor {
   color: white;
   font-family: "Ovo", serif;
   font-size: 40px;
-  padding: 10px;
-  text-transform: uppercase;
 }
 
 .intro__categories {
   font-size: 65px;
   color: #f2c029;
-}
-
-.intro__header {
-  font-size: 65px;
+  font-family: "Ovo", serif;
 }
 
 .button {
